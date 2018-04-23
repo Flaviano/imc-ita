@@ -13,6 +13,8 @@ public class Principal {
 		String resultadoP2 = paciente2.diagnostico(imc2);
 		System.out.println("IMC do Paciente 2 é: " + imc2 + " que significa " + resultadoP2);
 		
+		
+		
 		Paciente paciente3 = new Paciente(68,1.72);
 		double imc3 = paciente3.calcularIMC();
 		String resultadoP3 = paciente3.diagnostico(imc3);
